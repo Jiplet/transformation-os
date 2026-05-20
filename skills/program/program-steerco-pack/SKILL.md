@@ -54,7 +54,7 @@ One-page traffic-light summary. Use this table structure:
 | Dimension | Status | Commentary |
 |---|---|---|
 | Overall Program | 🟢/🟡/🔴 | One sentence |
-| FY26 Target ($100m) | 🟢/🟡/🔴 | Banked $X + In-flight $X = $X of $100m |
+| FY26 Target | 🟢/🟡/🔴 | Banked $X + In-flight $X = $X of 8 figure |
 | Pipeline | 🟢/🟡/🔴 | N initiatives, $X total opportunity |
 | Risks | 🟢/🟡/🔴 | Key risk in one sentence |
 | Resourcing | 🟢/🟡/🔴 | Team capacity / blockers |
@@ -64,7 +64,7 @@ One-page traffic-light summary. Use this table structure:
 - 🟡 At risk — action underway, needs monitoring
 - 🔴 Off track — escalation or decision required
 
-**Hard rule:** If gap to $100m target is >40% with <6 months remaining in FY26, Overall Program status cannot be 🟢.
+**Hard rule:** If Gap to target is >40% with <6 months remaining in FY26, Overall Program status cannot be 🟢.
 
 ---
 
@@ -78,7 +78,7 @@ Table by lever:
 | Policy | | | | | |
 | Workforce | | | | | |
 | Operating Model | | | | | |
-| **Total** | **$100m** | | | | |
+| **Total** | **target** | | | | |
 
 **Definitions:**
 - Banked = validated savings in actuals or contracted
@@ -200,7 +200,7 @@ Confirm to Jacob: file path, any TBC fields that need filling before distributio
 
 - Company: Ventia Infrastructure Services (ASX:VNT)
 - Sectors: D&SI, Telco, Transport, Infrastructure Services
-- Cost program: $100m FY26 / $300m 3-year target
+- Cost program: 8 figure FY26 / 9 figure 3-year target
 - Levers: procurement, policy, workforce, operating model
 - Audience: ExCo, CFO, sector leadership
 - All figures AUD unless stated

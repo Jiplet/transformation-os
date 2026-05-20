@@ -63,7 +63,7 @@ Apply the following phasing logic (adjust if Jacob provides initiative-specific 
 ### Step 4 — Sensitivity Table
 Show outcomes at 5%, 10%, 15%, 20%, 25% reduction on the cost base:
 
-| Saving % | Annual Saving ($) | 3-Year Cumulative ($) | % of $100m FY26 Target | % of $300m 3-Year Target |
+| Saving % | Annual Saving ($) | 3-Year Cumulative ($) | % of FY26 target | % of 3-year target |
 |---|---|---|---|---|
 | 5% | | | | |
 | 10% | | | | |
@@ -101,7 +101,7 @@ Columns: Cost Base | Saving % | Annual Saving $ | FY26 Phased | FY27 Phased | FY
 - Assumptions block below the table — label each one, mark unverified
 
 **Tab 3 — Sensitivity**
-- Matrix: saving % rows (5%–25%) × metric columns (Annual $, 3-Year Cumulative, % of $100m, % of $300m)
+- Matrix: saving % rows (5%–25%) × metric columns (Annual $, 3-Year Cumulative, % of target, % of 3-year)
 - Single input cell for cost base at top of sheet — all formulas reference it
 - Highlight the Base Case row
 
@@ -124,7 +124,7 @@ Columns: Cost Base | Saving % | Annual Saving $ | FY26 Phased | FY27 Phased | FY
 | Field | Value |
 |---|---|
 | Company | Ventia Infrastructure Services (ASX:VNT) |
-| Cost program | $100m FY26 / $300m 3-year |
+| Cost program | 8 figure FY26 / 9 figure 3-year |
 | Currency | AUD — formatted `$#,##0` (no decimals) |
 | Primary colour | Navy `#0B3254` |
 | Accent | Bright Blue `#13B5EA` |

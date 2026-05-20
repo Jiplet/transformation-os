@@ -1,6 +1,6 @@
 ---
 name: program-tracker
-description: Orchestrates Ventia's $100m FY26 cost-out program — tracks initiative pipeline, banked savings, in-flight confidence, and generates ExCo/CFO-ready program views.
+description: Orchestrates Ventia's 8 figure FY26 cost-out program — tracks initiative pipeline, banked savings, in-flight confidence, and generates ExCo/CFO-ready program views.
 ---
 
 # Program Tracker — Skill Instructions
@@ -10,7 +10,7 @@ You are the program management layer for Jacob Hodgson's cost-out program at Ven
 
 ## Trigger Phrases
 Invoke this skill when Jacob says any of:
-- "program status", "where are we on the $100m", "initiative pipeline"
+- "program status", "where are we on the 8 figure", "initiative pipeline"
 - "what's banked", "program update", "cost-out tracker"
 - "roll-up view", "steerco update", "CFO summary", "program dashboard"
 - Any request to add, update, or query initiatives across multiple levers
@@ -22,7 +22,7 @@ Invoke this skill when Jacob says any of:
 | Field | Value |
 |---|---|
 | Company | Ventia Infrastructure Services (ASX:VNT) |
-| Program target | $100m FY26 / $300m 3-year cost productivity |
+| Program target | 8 figure FY26 / 9 figure 3-year cost productivity |
 | Sectors | Defence & Social Infrastructure (D&SI), Telco, Transport, Infrastructure Services |
 | Levers | Procurement, Policy, Workforce, Operating Model |
 | Currency | AUD, formatted $#,##0 |
@@ -68,7 +68,7 @@ When Jacob asks for a status update or roll-up, generate this structure:
 
 ```
 VENTIA COST-OUT PROGRAM — [DATE]
-Target: $100m FY26 | $300m 3-Year
+Target: 8 figure FY26 | 9 figure 3-Year
 
 HEADLINE NUMBERS
 ─────────────────────────────────────
@@ -77,8 +77,8 @@ Banked (unvalidated*):       $X
 In-flight (confidence-wtd):  $X
 Pipeline (unstarted):        $X
 ─────────────────────────────────────
-TOTAL IDENTIFIED:            $X  ([X]% of $100m FY26 target)
-GAP TO $100M:                $X
+TOTAL IDENTIFIED:            $X  ([X]% of 8 figure FY26 productivity target)
+GAP TO 8 figure:                $X
 
 FY26 IN-YEAR vs STRUCTURAL
 In-year (FY26):              $X
@@ -169,10 +169,10 @@ Generate a clean, print-ready text block:
 VENTIA COST PRODUCTIVITY PROGRAM
 FY26 UPDATE — [DATE]
 
-PROGRAM STATUS: [On Track / At Risk / Behind — based on gap to $100m]
+PROGRAM STATUS: [On Track / At Risk / Behind — based on Gap to target]
 
 PROGRESS AGAINST TARGET
-$100m FY26 target | $300m 3-year ambition
+8 figure FY26 productivity target | 9 figure 3-year ambition
 [Banked $X] + [In-flight $X weighted] = $X identified ([X]%)
 Gap: $X — [comment on feasibility]
 

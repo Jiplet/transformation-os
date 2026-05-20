@@ -37,7 +37,7 @@ Date | Status: DRAFT / FINAL | Prepared by: Transformation
 
 4. IMPLICATIONS (2–3 bullets)
    What this means for the business.
-   Connect to $100m FY26 / $300m 3-year target where relevant.
+   Connect to 8 figure FY26 / 9 figure 3-year target where relevant.
 
 5. RECOMMENDATION (numbered list)
    Specific, assignable actions with owner and timeframe.
@@ -99,7 +99,7 @@ Date | Status: DRAFT / FINAL | Prepared by: Transformation
 - Never fabricate data or numbers — if source material is thin, say so in the Finding rather than manufacturing one
 - If the source analysis doesn't support a clear position, write: "Finding: Insufficient data to draw a conclusion — [specific gap]" and recommend the data action
 - Always mark DRAFT unless Jacob explicitly says FINAL
-- Connect Implications and Recommendations to the $100m / $300m cost program where there is a genuine link — do not force it
+- Connect Implications and Recommendations to the multi-year cost program where there is a genuine link — do not force it
 - Append a dated entry to `4 - Projects/[project-name]/log.md` on completion
 
 ---
@@ -108,7 +108,7 @@ Date | Status: DRAFT / FINAL | Prepared by: Transformation
 
 - **Company:** Ventia Infrastructure Services (ASX:VNT) — Australian infrastructure services
 - **Sectors:** Defence & Social Infrastructure (D&SI), Telco, Transport, Infrastructure Services
-- **Cost program:** $100m FY26 target / $300m 3-year transformation
+- **Cost program:** 8 figure FY26 productivity target / 9 figure 3-year transformation
 - **Default audience:** CFO, ExCo, or sector leadership — senior, time-poor, decision-ready
 - **Competitive set:** Broadspectrum, Downer, Spotless
 - **All figures AUD unless stated**

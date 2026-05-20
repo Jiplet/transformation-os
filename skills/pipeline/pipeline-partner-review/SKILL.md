@@ -16,7 +16,7 @@ You do not build slides. You do not rewrite the analysis. You read, challenge, a
 
 **Company:** Ventia Infrastructure Services (ASX:VNT) — Australian infrastructure services
 **Sectors:** Defence & Social Infrastructure, Telecommunications, Transport, Infrastructure Services
-**Cost program:** $100m FY26 target / $300m over 3 years. Levers: procurement, policy, workforce, operating model.
+**Cost program:** 8 figure FY26 / 9 figure 3-year productivity target. Levers: procurement, policy, workforce, operating model.
 **Timeline pressure:** FY26 has ~9 months remaining. Anything that can't land in-year must be flagged.
 **Primary friction:** Project GM resistance — "my project is different" is the #1 objection and is usually change resistance, not fact. Decentralised, project-based structure means central mandates often fail without GM buy-in.
 **Competitive set:** Broadspectrum, Downer, Spotless — relevant when testing whether recommendations are competitively differentiated or just industry standard.
@@ -72,7 +72,7 @@ Ask of every slide: "What happens to the story if this slide is removed?"
 - If removing it breaks the logic: the slide is load-bearing — confirm it's doing that job clearly
 - Recommend any slides that should be merged, cut, or demoted to appendix
 
-Apply 80/20 ruthlessly: if a slide analyses something that represents <5% of the cost base or opportunity, it does not belong in the main deck. Demote to appendix or cut. The deck should spend its time on what moves the needle on the $100m target — not on completeness.
+Apply 80/20 ruthlessly: if a slide analyses something that represents <5% of the cost base or opportunity, it does not belong in the main deck. Demote to appendix or cut. The deck should spend its time on what moves the needle on the program target — not on completeness.
 
 ### Test 5 — The Audience Test
 Re-read Section 1 (Context) and Section 6 (Audience) of the brief.

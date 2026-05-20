@@ -28,20 +28,24 @@ The premise: AI delivers leverage when it is engineered into the workflow, not s
 
 ---
 
-## The pipeline
+## The system
 
-![pipeline](docs/tile-01-pipeline.png)
+![system](docs/tile-01-pipeline.png)
 
-Five agents, two human-approval gates. Every analytical deliverable runs this loop:
+Six layers. Ingest, data, pipeline, output, audit, knowledge. The pipeline is the spine, but the surface around it is what makes the work survive an executive review.
+
+### The pipeline layer
+
+Five agents and two human-approval gates run every analytical deliverable:
 
 | Stage | What it does |
 |---|---|
 | **Agent 1: Clean** | Ingest, normalise, classify |
-| **Gate: Working Construct** | Hypothesis-driven story skeleton (MBB practice) — Jacob signs off before any analysis runs |
+| **Gate: Working Construct** | Hypothesis-driven story skeleton (MBB practice). I sign off before any analysis runs |
 | **Agent 2: Analysis** | DuckDB, spend cube, structured data cuts |
 | **Agent 3: Synthesis** | Findings to implications |
-| **Agent 4: Blueprint** | Deck architecture + key messages |
-| **Gate: Partner Review** | Pre-delivery critique — substance, structure, audience |
+| **Agent 4: Blueprint** | Deck architecture and key messages |
+| **Gate: Partner Review** | Pre-delivery critique: substance, structure, audience |
 | **Agent 5: Final Deck** | PPTX / Word / HTML, executive-ready |
 
 The gates are not optional. They exist because exec deliverables die at the partner review, not at the analysis.
