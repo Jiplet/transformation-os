@@ -1,0 +1,14 @@
+{
+  "name": "desk-booker",
+  "version": "1.0.0",
+  "description": "Books office desks via OfficeSpace API for configured days of the week",
+  "main": "book-desk.js",
+  "scripts": {
+    "book": "node book-desk.js",
+    "book:headless": "node book-desk.js --headless",
+    "login": "node book-desk.js --login-only"
+  },
+  "dependencies": {
+    "playwright": "^1.40.0"
+  }
+}

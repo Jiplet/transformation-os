@@ -1,0 +1,89 @@
+# think-cell Template Registry
+#
+# Each entry maps a registered .pptx template to its chart placeholders.
+# Claude reads this file to match a user's chart request to the right template.
+#
+# Fields:
+#   name        — short human label for this template (used in registry lookups)
+#   path        — absolute path to the .pptx file (stored in Template/thinkcell/)
+#   category    — chart family: waterfall | stacked_bar | marimekko | bubble | combination | harvey_ball
+#   use_case    — plain-English description of when to use this template
+#   elements    — list of named placeholders in the template
+#     name        — must match the think-cell placeholder name in the .pptx exactly
+#     type        — chart | text | harvey_ball
+#     data_shape  — brief description of expected data structure
+#   tags        — free-text list for matching (project names, sectors, chart subtypes)
+#
+# PLACEHOLDER entries — replace during bootstrap session when real templates are added.
+
+templates:
+
+  - name: "Ventia EBIT Bridge"  # PLACEHOLDER — replace during bootstrap session
+    path: "/Users/jacob/Documents/The-Analyst/Template/thinkcell/ventia_ebit_bridge.pptx"
+    category: waterfall
+    use_case: "Standard EBIT waterfall / bridge chart for ExCo and CFO packs. Shows prior-year actuals, variances (cost-out, volume, mix, other), and current-year forecast."
+    elements:
+      - name: "Chart1"
+        type: chart
+        data_shape: "categories = period labels + variance labels; data = one series of signed floats; null = subtotal marker"
+      - name: "SlideTitle"
+        type: text
+        data_shape: "string — slide headline, e.g. 'EBIT Bridge FY25A–FY26F ($M)'"
+      - name: "Footnote"
+        type: text
+        data_shape: "string — source / assumptions note"
+    tags:
+      - waterfall
+      - bridge
+      - EBIT
+      - P&L
+      - CFO
+      - ExCo
+
+  - name: "Category Spend Stacked Bar"  # PLACEHOLDER — replace during bootstrap session
+    path: "/Users/jacob/Documents/The-Analyst/Template/thinkcell/category_spend_stacked.pptx"
+    category: stacked_bar
+    use_case: "Stacked column chart for category spend by year or BU. Used in procurement reviews, category landscape slides, and steerco packs."
+    elements:
+      - name: "SpendChart"
+        type: chart
+        data_shape: "categories = years or periods; data = N series (one per category or BU), each a list of floats"
+      - name: "ChartTitle"
+        type: text
+        data_shape: "string — chart headline"
+      - name: "SourceNote"
+        type: text
+        data_shape: "string — data source and cut-off date"
+    tags:
+      - stacked_bar
+      - stacked_column
+      - category
+      - spend
+      - procurement
+      - annual
+
+  - name: "Initiative Prioritisation Bubble"  # PLACEHOLDER — replace during bootstrap session
+    path: "/Users/jacob/Documents/The-Analyst/Template/thinkcell/initiative_bubble.pptx"
+    category: bubble
+    use_case: "Bubble/scatter chart for plotting initiatives by effort vs value (or any two axes). Used in program prioritisation, cost-out ranking, and portfolio reviews."
+    elements:
+      - name: "BubbleChart"
+        type: chart
+        data_shape: "each data row = [label, x_value, y_value, bubble_size]; no categories array needed"
+      - name: "SlideTitle"
+        type: text
+        data_shape: "string — slide headline"
+      - name: "XAxisLabel"
+        type: text
+        data_shape: "string — x-axis description, e.g. 'Implementation Effort'"
+      - name: "YAxisLabel"
+        type: text
+        data_shape: "string — y-axis description, e.g. 'Annual Savings ($M)'"
+    tags:
+      - bubble
+      - scatter
+      - prioritisation
+      - initiative
+      - effort
+      - value
+      - BCG

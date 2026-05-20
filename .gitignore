@@ -1,0 +1,50 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Internal — never commit
+.sanitisation-log.md
+
+# Data files (never commit)
+*.xlsx
+*.csv
+*.parquet
+*.db
+*.duckdb
+
+# Output artefacts (never commit)
+*.pptx
+*.docx
+*.pdf
