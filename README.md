@@ -4,7 +4,7 @@
 
 ![hero](docs/hero-tiles.png)
 
-I run a $100M FY26 cost productivity programme at Ventia (ASX:VNT, $6B revenue, 35,000 people). This repository is the system I built to run it. Procurement reviews, working-capital models, board papers, client dashboards, evidence ledgers, all of it flows through here.
+I run an 8 figure cost productivity programme at Ventia (ASX:VNT, $6B revenue, 35,000 people). This repository is the system I built to run it. Procurement reviews, working-capital models, board papers, client dashboards, evidence ledgers, all of it flows through here.
 
 The premise: AI delivers leverage when it is engineered into the workflow, not summoned ad-hoc.
 
