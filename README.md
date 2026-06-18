@@ -96,6 +96,16 @@ This is not a sidecar. It is the difference between AI as a fancy autocomplete a
 
 ---
 
+## The learning loop
+
+The system remembers not just projects, but mistakes. Every silent SQL trap, every library that produces files the reader cannot open, every field that lies about its contents: each one becomes a durable engineering rule that gets written into the standards, not just fixed and forgotten. The next build avoids it.
+
+This is the efficiency flywheel. Rework cycles compound in the wrong direction; captured gotchas compound in the right one. After enough cycles the build is correct on the first pass because the traps were already catalogued.
+
+The catalogue holds twenty rules today, each traceable to a build that failed once. The full set is in [`methodology/engineering-standards.md`](methodology/engineering-standards.md).
+
+---
+
 ## A skill from the inside
 
 ![skill](docs/tile-06-skill.png)
